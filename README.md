@@ -2,8 +2,29 @@
 
 ### Maria Eduarda Lima da Luz
 ### Matrícula: 20250051776
+
+
+## 📖 Descrição do Projeto
+
+Este repositório apresenta a implementação, em Python e Jupyter Notebook, da construção de uma **Árvore Geradora Mínima (MST)** entre bibliotecas municipais de Natal (RN). A MST conecta todos os pontos de interesse (POIs) com o menor custo total de distância, permitindo aplicações em planejamento urbano, logística e infraestrutura.
+
+**Fluxo geral:**
+
+1. Obtenção do grafo de ruas de Natal via OSMnx.
+2. Conversão do grafo dirigido em MultiGraph não direcionado.
+3. Coleta e tratamento de POIs (bibliotecas).
+4. Mapeamento de coordenadas para nós do grafo.
+5. Construção de um grafo completo de interesse entre POIs.
+6. Cálculo da MST usando o algoritmo de Kruskal (NetworkX).
+7. Visualização do resultado em Matplotlib.
+
 ---
-Este repositório contém o código em Python para extrair e conectar pontos de interesse (POIs), especificamente bibliotecas, em Natal (RN) por meio da construção de uma Árvore Geradora Mínima (MST) usando OSMnx e NetworkX. Também inclui o resultado da análise em forma de imagem e links para o podcast e artigo no Medium.
+
+## 🔗 Links Úteis
+
+* 🎙️ Podcast sobre este projeto: [Ouça aqui](https://notebooklm.google.com/notebook/0e81e5ae-0f76-46bb-a1da-3f9dad2130a5/audio)
+* 📝 Artigo no Medium: [Leia no Medium](https://medium.com/@mariaedulluz/constru%C3%A7%C3%A3o-da-%C3%A1rvore-geradora-m%C3%ADnima-das-bibliotecas-de-natal-729e1e9f9410)
+
 
 ---
 
@@ -46,9 +67,4 @@ Isso irá:
 **Figura:** MST conectando bibliotecas municipais de Natal. Pontos em rosa representam bibliotecas, linhas roxas mostram as rotas da árvore geradora mínima.
 
 ---
-
-## 🔗 Links Úteis
-
-* 🎙️ Podcast sobre este projeto: [Ouça aqui](https://link-para-o-podcast.com)
-* 📝 Artigo no Medium: [Leia no Medium](https://medium.com/seu-usuario/seu-artigo)
 
